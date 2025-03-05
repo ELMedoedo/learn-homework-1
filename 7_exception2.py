@@ -13,26 +13,24 @@
     
 """
 
+
 def discounted(price, discount, max_discount=20):
     try:
-        price=float(price)
-        discount=float(discount)
-        max_discount=int(max_discount)
+        price = float(price)
+        discount = float(discount)
+        max_discount = int(max_discount)
         if discount >= max_discount:
             return price
         else:
             return price - (price * discount / 100)
 
-    except(ValueError):
+    except ValueError:
         return "Не то значение"
-        
-    
 
-    except(TypeError):
+    except TypeError:
         return "Не тот тип"
-        
-        
-    
+
+
 if __name__ == "__main__":
     print(discounted(100, 2))
     print(discounted(100, "3"))

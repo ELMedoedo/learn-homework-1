@@ -11,10 +11,10 @@
 
 
 def hello_user():
-    vvod= input("Как дела?")
-    while vvod!="Хорошо":
-        vvod= input("Как дела?")
+    vvod = input("Как дела?")
+    while vvod != "Хорошо":
+        vvod = input("Как дела?")
 
-    
+
 if __name__ == "__main__":
     hello_user()
