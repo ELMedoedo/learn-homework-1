@@ -14,10 +14,11 @@
 """
 
 def discounted(price, discount, max_discount=20)
-    """
-    Замените pass на ваш код
-    """
-    pass
+    try:
+        
+
+    except(ValueError, TypeError):
+        
     
 if __name__ == "__main__":
     print(discounted(100, 2))

@@ -11,10 +11,9 @@
 
 
 def hello_user():
-    """
-    Замените pass на ваш код
-    """
-    pass
+    vvod= input("Как дела?")
+    while vvod!="Хорошо":
+        vvod= input("Как дела?")
 
     
 if __name__ == "__main__":
