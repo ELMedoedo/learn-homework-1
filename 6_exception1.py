@@ -15,9 +15,16 @@ def hello_user():
         vvod= input("Как дела?")
         while vvod!="Хорошо":
             vvod= input("Как дела?")
+            if vvod=="Хорошо":
+                break
+        print("Пока!")
+                
+            
 
     except(KeyboardInterrupt):
+        
         print("Пока!")
+        
         
     
 if __name__ == "__main__":
