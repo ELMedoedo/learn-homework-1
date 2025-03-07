@@ -15,12 +15,24 @@
 
 """
 
-def main():
-    """
-    Эта функция вызывается автоматически при запуске скрипта в консоли
-    В ней надо заменить pass на ваш код
-    """
-    pass
-    
-if __name__ == "__main__":
-    main()
+povtor = int(input())
+
+
+def main(st1, st2):
+    if st1 != str(st1) and st2 != str(st2):
+        print(0)
+        return
+    elif len(st1) == len(st2):
+        print(1)
+        return
+    elif len(st1) > len(st2):
+        print(2)
+        return
+    elif st2 == "learn":
+        print(3)
+        return
+
+
+for i in range(povtor):
+    if __name__ == "__main__":
+        main(input(), input())
